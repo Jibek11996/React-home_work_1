@@ -1,13 +1,16 @@
+import React from "react";
 import logo from './logo.svg';
 import './App.css';
+import Ccomponent from "./Ccomponent";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <Ccomponent/>
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Home Work 1
         </p>
         <a
           className="App-link"
@@ -15,11 +18,9 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
         </a>
       </header>
     </div>
   );
 }
-
 export default App;
